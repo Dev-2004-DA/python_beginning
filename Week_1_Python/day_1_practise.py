@@ -23,6 +23,12 @@
 
 #   ### WAP to input side of a square and print its perimeter and area ###
 
-side=int(input("Enter the integer value of a side of a square:"))
-print("The perimeter and the area of the square of side ",side,"are ",4*side,"and ",side**2," respectively")
+# side=int(input("Enter the integer value of a side of a square:"))
+# print("The perimeter and the area of the square of side ",side,"are ",4*side,"and ",side**2," respectively")
 
+
+
+############ WAP to input 2 floaring point numbers & print their averages ############
+
+x,y=map(float,input("Enter two numbers with a space between them :").split())
+print("the average of ",x," and ",y,"is = ",(x+y)/2)
