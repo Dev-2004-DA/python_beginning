@@ -1,5 +1,5 @@
 print("hello world")
-print("My name is Dev Sagar Soni and I have just comapleted my bachelors in statistics hons from Banaras Hindu University ")
+print("My name is Dev Sagar Soni and I have just comapleted my bachelors in statistics hons form Banaras Hindu University ")
 x=4
 y=x     #  here i gave variable x the value of 4 and then assigned y to x
 print(y)
