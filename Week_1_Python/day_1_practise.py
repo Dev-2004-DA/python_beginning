@@ -30,5 +30,12 @@
 
 ############ WAP to input 2 floaring point numbers & print their averages ############
 
-x,y=map(float,input("Enter two numbers with a space between them :").split())
-print("the average of ",x," and ",y,"is = ",(x+y)/2)
+# x,y=map(float,input("Enter two numbers with a space between them :").split())
+# print("the average of ",x," and ",y,"is = ",(x+y)/2)
+
+
+
+####### Wap to input 2 int numbers , a and b . Print true if a is greater than or equal to b , if not then False #######
+
+a,b=map(int,input("Enter two integers wuth a space between them :").split())
+print(a>=b)
