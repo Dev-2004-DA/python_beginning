@@ -37,3 +37,13 @@ print(x[:3])
 print(x[1:3])
 print(x[3:])
 print(x[-5:-1])
+
+################ string functions##################
+x="hello i am dev sagar soni"
+print(x.upper())
+print(x.capitalize())
+print(x.title())
+print(x.replace("dev sagar soni","rishi soni").title())     ### chain function
+print(x.replace('i','you'))
+print(x.startswith('hell'))
+print(x.count("a"))
