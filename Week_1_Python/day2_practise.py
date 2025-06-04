@@ -32,7 +32,14 @@
 
 ################# WAP to find the greatest of 3 numbers entered by the user #################
 
-x,y,z= map(float,input("enter three distinct number with a blank space after each number :").split())
-if(x>y and x>z): print("the greatest among the thr45ee is :",x)
-elif(y>x and y>z): print("the greatest among the three is :",y)
-else: print("the greatest among the three is: ",z)
+# x,y,z= map(float,input("enter three distinct number with a blank space after each number :").split())
+# if(x>y and x>z): print("the greatest among the thr45ee is :",x)
+# elif(y>x and y>z): print("the greatest among the three is :",y)
+# else: print("the greatest among the three is: ",z)
+
+
+################# WAP to check if a enetered number is a multile of 7 or not #################
+
+x=int(input("Enter an integer : "))
+if(x%7==0): print("",x," is multiple of 7")
+else: print("",x," is not a multiple of 7")
