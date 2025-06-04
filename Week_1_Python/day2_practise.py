@@ -10,12 +10,21 @@
 
 ############## WAP TO GRADE STUDENTS BASED ON THEIR MARKS ###############
 
-x=int(input("Enter your marks : "))
-if(x>=90):
-    print('GRADE ="A"')
-elif(x>=80 and x<90):
-    print('GRADE "B"')
-elif(x>=70 and x<80 ):
-    print('GRADE "C"')
+# x=int(input("Enter your marks : "))
+# if(x>=90):
+#     print('GRADE ="A"')
+# elif(x>=80 and x<90):
+#     print('GRADE "B"')
+# elif(x>=70 and x<80 ):
+#     print('GRADE "C"')
+# else:
+#     print('GRADE "D"')
+
+
+################ WAP to check if a number is entered by user is odd or even ################    
+
+x=int(input("Enter an integer number : "))
+if(x%2 ==0):
+    print("The number is EVEN.")
 else:
-    print('GRADE "D"')
+    print("The number is ODD.")    
