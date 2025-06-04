@@ -23,8 +23,16 @@
 
 ################ WAP to check if a number is entered by user is odd or even ################    
 
-x=int(input("Enter an integer number : "))
-if(x%2 ==0):
-    print("The number is EVEN.")
-else:
-    print("The number is ODD.")    
+# x=int(input("Enter an integer number : "))
+# if(x%2 ==0):
+#     print("The number is EVEN.")
+# else:
+#     print("The number is ODD.")    
+
+
+################# WAP to find the greatest of 3 numbers entered by the user #################
+
+x,y,z= map(float,input("enter three distinct number with a blank space after each number :").split())
+if(x>y and x>z): print("the greatest among the thr45ee is :",x)
+elif(y>x and y>z): print("the greatest among the three is :",y)
+else: print("the greatest among the three is: ",z)
