@@ -1,0 +1,6 @@
+print("hello")
+print('hello')
+#print("hello "dev"")
+print("hello 'dev ' ")
+print('hello "dev" ')
+#print('hello 'dev'')
