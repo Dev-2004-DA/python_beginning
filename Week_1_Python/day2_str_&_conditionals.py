@@ -47,3 +47,10 @@ print(x.replace("dev sagar soni","rishi soni").title())     ### chain function
 print(x.replace('i','you'))
 print(x.startswith('hell'))
 print(x.count("a"))
+
+
+
+####################  CONDITIONALS STATEMENT #####################
+score=55
+if (score > 40):
+    print("You passed!")
