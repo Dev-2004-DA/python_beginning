@@ -30,10 +30,15 @@
 #     print("It is not ")
 
 ############################## WAP to count the number of students with the "A" grade in the following tupple ("C","D","A","A","B","B","A") #########################
-x=("C","D","A","A","B","B","A")
-##store the above values in a list ad sort them from ascending to descending  ##
-y=list(x)
-print("the number of stdents with Grade A are = ",y.count("A"))
-y.sort()
-print(y)
+# x=("C","D","A","A","B","B","A")
+# ##store the above values in a list and sort them from ascending to descending  ##
+# y=list(x)
+# print("the number of stdents with Grade A are = ",y.count("A"))
+# y.sort()
+# print(y)
 
+############################ store the following word  meanings in a python dictionary:  table- a piece of furniture ,list of facts & figures , cat- a small animal ##########3
+dicti={}                                                                # created a empty dictionary
+dicti["table"]=["a piece of furniture ", "list of facts and figures"]
+dicti["cat"]="a small animal"
+print(dicti)
