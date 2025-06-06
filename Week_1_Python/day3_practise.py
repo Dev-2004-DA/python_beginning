@@ -30,14 +30,18 @@
 #     print("It is not ")
 
 ############################## WAP to count the number of students with the "A" grade in the following tupple ("C","D","A","A","B","B","A") #########################
-# x=("C","D","A","A","B","B","A")
-# ##store the above values in a list and sort them from ascending to descending  ##
-# y=list(x)
-# print("the number of stdents with Grade A are = ",y.count("A"))
-# y.sort()
-# print(y)
-
+x=("C","D","A","A","B","B","A")
+##store the above values in a list ad sort them from ascending to descending  ##
+y=list(x)
+print("the number of stdents with Grade A are = ",y.count("A"))
+y.sort()
+print(y)
+Add commentMore actions
 ############################ store the following word  meanings in a python dictionary:  table- a piece of furniture ,list of facts & figures , cat- a small animal ##########3
+dicti={}                                                                # created a empty dictionary
+dicti["table"]=["a piece of furniture ", "list of facts and figures"]
+dicti["cat"]="a small animal"
+print(dicti)
 # dicti={}                                                                # created a empty dictionary
 # dicti["table"]=["a piece of furniture ", "list of facts and figures"]
 # dicti["cat"]="a small animal"
@@ -47,4 +51,4 @@
 
 x=["python","java","C++","python","javascript","java","python","java","C++","C"]    # list is given to count no of classe
 y=set(x)                                                                                    # convert it into set and use len() fnc
-print("the no of classroom needed by all students are :" ,len(y))
+print("the no of classroom needed by all students are :" ,len(y))Add comment
