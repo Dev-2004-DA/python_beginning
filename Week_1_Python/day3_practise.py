@@ -38,7 +38,13 @@
 # print(y)
 
 ############################ store the following word  meanings in a python dictionary:  table- a piece of furniture ,list of facts & figures , cat- a small animal ##########3
-dicti={}                                                                # created a empty dictionary
-dicti["table"]=["a piece of furniture ", "list of facts and figures"]
-dicti["cat"]="a small animal"
-print(dicti)
+# dicti={}                                                                # created a empty dictionary
+# dicti["table"]=["a piece of furniture ", "list of facts and figures"]
+# dicti["cat"]="a small animal"
+# print(dicti)
+
+########################### you are given a list of subjects for students . assume one classroom is required for 1 subjects . how many classrooms are needed by all students #########
+
+x=["python","java","C++","python","javascript","java","python","java","C++","C"]    # list is given to count no of classe
+y=set(x)                                                                                    # convert it into set and use len() fnc
+print("the no of classroom needed by all students are :" ,len(y))
