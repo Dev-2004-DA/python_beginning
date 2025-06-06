@@ -29,26 +29,37 @@
 # else:
 #     print("It is not ")
 
-############################## WAP to count the number of students with the "A" grade in the following tupple ("C","D","A","A","B","B","A") #########################
-x=("C","D","A","A","B","B","A")
-##store the above values in a list ad sort them from ascending to descending  ##
-y=list(x)
-print("the number of stdents with Grade A are = ",y.count("A"))
-y.sort()
-print(y)
-Add commentMore actions
-############################ store the following word  meanings in a python dictionary:  table- a piece of furniture ,list of facts & figures , cat- a small animal ##########3
-dicti={}                                                                # created a empty dictionary
-dicti["table"]=["a piece of furniture ", "list of facts and figures"]
-dicti["cat"]="a small animal"
-print(dicti)
+# ############################## WAP to count the number of students with the "A" grade in the following tupple ("C","D","A","A","B","B","A") #########################
+# x=("C","D","A","A","B","B","A")
+# ##store the above values in a list ad sort them from ascending to descending  ##
+# y=list(x)
+# print("the number of stdents with Grade A are = ",y.count("A"))
+# y.sort()
+# print(y)
+# Add commentMore actions
+# ############################ store the following word  meanings in a python dictionary:  table- a piece of furniture ,list of facts & figures , cat- a small animal ##########3
 # dicti={}                                                                # created a empty dictionary
 # dicti["table"]=["a piece of furniture ", "list of facts and figures"]
 # dicti["cat"]="a small animal"
 # print(dicti)
+# # dicti={}                                                                # created a empty dictionary
+# # dicti["table"]=["a piece of furniture ", "list of facts and figures"]
+# # dicti["cat"]="a small animal"
+# # print(dicti)
 
-########################### you are given a list of subjects for students . assume one classroom is required for 1 subjects . how many classrooms are needed by all students #########
+# ########################### you are given a list of subjects for students . assume one classroom is required for 1 subjects . how many classrooms are needed by all students #########
 
-x=["python","java","C++","python","javascript","java","python","java","C++","C"]    # list is given to count no of classe
-y=set(x)                                                                                    # convert it into set and use len() fnc
-print("the no of classroom needed by all students are :" ,len(y))Add comment
+# x=["python","java","C++","python","javascript","java","python","java","C++","C"]    # list is given to count no of classe
+# y=set(x)                                                                                    # convert it into set and use len() fnc
+# print("the no of classroom needed by all students are :" ,len(y))
+
+
+############# Write a program to enter marks of three subjects from the user and store them in a dictionary start with an empty dictionary and add 1 by 1 use subject name as key and marks as value ##########
+marks={}
+x=int(input("enter phy marks : "))
+y=int(input("enter maths marks : "))
+z=int(input("enter stat marks : "))
+marks.update({"phy":x})
+marks.update({"maths":y})
+marks.update({"stats":z})
+print(marks)
