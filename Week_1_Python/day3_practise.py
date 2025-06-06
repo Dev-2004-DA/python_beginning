@@ -55,11 +55,18 @@
 
 
 ############# Write a program to enter marks of three subjects from the user and store them in a dictionary start with an empty dictionary and add 1 by 1 use subject name as key and marks as value ##########
-marks={}
-x=int(input("enter phy marks : "))
-y=int(input("enter maths marks : "))
-z=int(input("enter stat marks : "))
-marks.update({"phy":x})
-marks.update({"maths":y})
-marks.update({"stats":z})
-print(marks)
+# marks={}
+# x=int(input("enter phy marks : "))
+# y=int(input("enter maths marks : "))
+# z=int(input("enter stat marks : "))
+# marks.update({"phy":x})
+# marks.update({"maths":y})
+# marks.update({"stats":z})
+# print(marks)
+
+######### figure out a way to store 9 and 9.0 in a set ##########
+x={9,}
+print(type(x))
+x.add("float")
+x.add(9.9)
+print(x)
