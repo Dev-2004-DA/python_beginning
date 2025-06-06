@@ -40,12 +40,30 @@
 ######### search the element x of a tupple using a loop: (1,4,9,...,100)############
 
 
-x=(1,4,9,16,25,36,49,64,81,100)
-y= 100
-i=0
-while(i<=9):
-    if(x[i]==y):         ### if statement is used to print something if item is found
-        print("",y," is at index ",i)
-    i+=1
+# x=(1,4,9,16,25,36,49,64,81,100)
+# y= 100   ## the number that need to be searched
+# i=0
+# while(i<=9):
+#     if(x[i]==y):         ### if statement is used to print something if item is found
+#         print("",y," is at index ",i)
+#     i+=1
 
-print("item is searched")
+# print("item is searched")
+
+########## print the elemnts of the following list using for loop 1,4,9,..,100###############
+
+# lis=[1,4,9,16,25,36,49,64,81,100]
+# for hehe in lis:
+#     print(hehe)
+
+########## search for a no x in this tuple    [1,4,9,16,25,36,49,64,81,100] ########
+
+lis=(1,4,9,16,25,36,49,64,81,100)
+y=16
+idx=0
+for x in lis:
+    if(x==y):
+        print("",y," FOUND",idx)
+        break
+    idx=idx+1
+       
