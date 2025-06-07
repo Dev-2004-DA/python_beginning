@@ -31,7 +31,7 @@ greet("dev",21)
 
 def sum(a,b):
     x=a+b
-    return xs
+    return x
 
 print(sum(2,3))
 

@@ -12,16 +12,30 @@
 
 ####### WAF to print the elemnts of a list in a single line  ###########
 
-def print_in_a_line(a):
-    for item in a:
-        print(item ,end=" ")    ## end statemnt remove the default next line feature 
+# def print_in_a_line(a):
+#     for item in a:
+#         print(item ,end=" ")    ## end statemnt remove the default next line feature 
 
 
-x=[1,2,3,4,5,6,7,8,9,110]
-print_in_a_line(x)
-a="hurry"
-b=["A","B","c"]
-print(" ")
-print_in_a_line(a)
-print(" ")
-print_in_a_line(b)
+# x=[1,2,3,4,5,6,7,8,9,110]
+# print_in_a_line(x)
+# a="hurry"
+# b=["A","B","c"]
+# print(" ")
+# print_in_a_line(a)
+# print(" ")
+# print_in_a_line(b)
+
+
+########## WAF to find the factorial of n ( n is the parameter ) ############3
+
+def fact(n):
+    i=1         # initialization
+    y=1          # varibale that stores factorial
+    while(i!=(n+1)):
+        y=y*i
+        i+=1
+    return y    
+
+x=int(input("enter the number :"))
+print("the factorial of ",x, " is : ",fact(x))
