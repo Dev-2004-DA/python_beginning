@@ -75,10 +75,32 @@
 #### wap to writing factorial #####
 
  
-def fact(n):
-    if(n==0 or n==1 ):
-        return 1 
-    else:
-        return n * fact(n-1)
+# def fact(n):
+#     if(n==0 or n==1 ):
+#         return 1 
+#     else:
+#         return n * fact(n-1)
     
-print(fact(5))    
+# print(fact(5))    
+
+
+
+#########3 WARF to calculate sum of n natural numbers ###########
+def sum(n):
+    if(n==0):
+        return 0
+    else:
+        return n+ sum(n-1)
+
+x=sum(5)
+print("the sum is : ",x)
+
+
+
+
+
+
+
+
+
+########## WARF to print all elements in a list (use list and index as parameters) ##########
