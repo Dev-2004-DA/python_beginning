@@ -44,8 +44,20 @@
 
 ############# WAF to convert usd to inr ##########3
 
-def usd(x):
-    inr=x*83
-    return inr
-y=100
-print("the inr value is :" , usd(y))
+# def usd(x):
+#     inr=x*83
+#     return inr
+# y=100
+# print("the inr value is :" , usd(y))
+
+
+############# WAF that takes input number and if number is odd it reurn string odd and if even then even##############
+
+def evod(x):
+    if x%2==0:
+        return "EVEN"
+    else:
+        return "ODD" 
+
+y=int(input("Enterr the number : "))
+print("the number is :",evod(y))
