@@ -53,11 +53,32 @@
 
 ############# WAF that takes input number and if number is odd it reurn string odd and if even then even##############
 
-def evod(x):
-    if x%2==0:
-        return "EVEN"
-    else:
-        return "ODD" 
+# def evod(x):
+#     if x%2==0:
+#         return "EVEN"
+#     else:
+#         return "ODD" 
 
-y=int(input("Enterr the number : "))
-print("the number is :",evod(y))
+# y=int(input("Enterr the number : "))
+# print("the number is :",evod(y))
+
+
+# def sum_recursive(n):
+#     if n == 0:
+#         return 0       # base case — stop here
+#     else:
+#         return n + sum_recursive(n - 1)  # keep calling with smaller number
+    
+# print(sum_recursive(5))
+
+
+#### wap to writing factorial #####
+
+ 
+def fact(n):
+    if(n==0 or n==1 ):
+        return 1 
+    else:
+        return n * fact(n-1)
+    
+print(fact(5))    
