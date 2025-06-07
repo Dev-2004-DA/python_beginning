@@ -30,6 +30,11 @@
 #     print("0k")
 # z=(1,2,3,4,5,6,)    
 
-x=range(1,5,2)
-for i in x:
-    print(i)
+# x=range(1,5,2)
+# for i in x:
+#     print(i)
+
+x=[[4,5,6],[7,8,9]]
+for item in x :
+    print(item)
+    

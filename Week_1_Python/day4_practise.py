@@ -68,19 +68,40 @@
 #     idx=idx+1
        
 
-############ WAP to find the sum of first n numbers (using while ) ##############
-n=int(input("enetr the number:"))
-i=0     ## initialization
-y=0     ## a varibale that store the sum 
-while(i!=n):
+# ############ WAP to find the sum of first n numbers (using while ) ##############
+# n=int(input("enetr the number:"))
+# i=0     ## initialization
+# y=0     ## a varibale that store the sum 
+# while(i!=n):
+#     i+=1
+#     y=y+i
+# print(y)    
+
+# ############ WAP to find the sum of first n numbers (using for ) ##############
+
+# n=int(input("enetr the number:"))
+# y=0
+# for z in range(1,n+1):
+#     y=y+z
+# print(y)    
+
+
+############ WAP to find the facorial of first n numbers (using for) ##############
+
+
+n=int(input("enetr the number:"))     # taking input
+fact=1
+for no in range(1,n+1):
+    fact=fact*no 
+print("the factorial is = ", fact)    
+
+############ WAP to find the facorial of first n numbers (using while) ##############
+
+
+n=int(input("enetr the number:"))     # taking input
+fact=1    # variable that strores the factorial
+i=1    # initailizizng 
+while (i!=n+1):
+    fact=fact*i
     i+=1
-    y=y+i
-print(y)    
-
-############ WAP to find the sum of first n numbers (using for ) ##############
-
-n=int(input("enetr the number:"))
-y=0
-for z in range(1,n+1):
-    y=y+z
-print(y)    
+print(fact)    
