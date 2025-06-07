@@ -86,21 +86,25 @@
 
 
 #########3 WARF to calculate sum of n natural numbers ###########
-def sum(n):
-    if(n==0):
-        return 0
-    else:
-        return n+ sum(n-1)
+# def sum(n):
+#     if(n==0):
+#         return 0
+#     else:
+#         return n+ sum(n-1)
 
-x=sum(5)
-print("the sum is : ",x)
-
-
-
-
-
+# x=sum(5)
+# print("the sum is : ",x)
 
 
 
 
 ########## WARF to print all elements in a list (use list and index as parameters) ##########
+
+
+def y(lis,idx):
+    if(idx == len(lis)):
+        return 78
+    print(lis[idx])
+    y(lis,idx +1)
+x=[1,2,3,4,5,6]
+y(x,0)
