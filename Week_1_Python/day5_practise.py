@@ -29,13 +29,23 @@
 
 ########## WAF to find the factorial of n ( n is the parameter ) ############3
 
-def fact(n):
-    i=1         # initialization
-    y=1          # varibale that stores factorial
-    while(i!=(n+1)):
-        y=y*i
-        i+=1
-    return y    
+# def fact(n):
+#     i=1         # initialization
+#     y=1          # varibale that stores factorial
+#     while(i!=(n+1)):
+#         y=y*i
+#         i+=1
+#     return y    
 
-x=int(input("enter the number :"))
-print("the factorial of ",x, " is : ",fact(x))
+# x=int(input("enter the number :"))
+# print("the factorial of ",x, " is : ",fact(x))
+
+
+
+############# WAF to convert usd to inr ##########3
+
+def usd(x):
+    inr=x*83
+    return inr
+y=100
+print("the inr value is :" , usd(y))
