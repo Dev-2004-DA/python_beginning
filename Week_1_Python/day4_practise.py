@@ -58,12 +58,29 @@
 
 ########## search for a no x in this tuple    [1,4,9,16,25,36,49,64,81,100] ########
 
-lis=(1,4,9,16,25,36,49,64,81,100)
-y=16
-idx=0
-for x in lis:
-    if(x==y):
-        print("",y," FOUND",idx)
-        break
-    idx=idx+1
+# lis=(1,4,9,16,25,36,49,64,81,100)
+# y=16
+# idx=0
+# for x in lis:
+#     if(x==y):
+#         print("",y," FOUND",idx)
+#         break
+#     idx=idx+1
        
+
+############ WAP to find the sum of first n numbers (using while ) ##############
+n=int(input("enetr the number:"))
+i=0     ## initialization
+y=0     ## a varibale that store the sum 
+while(i!=n):
+    i+=1
+    y=y+i
+print(y)    
+
+############ WAP to find the sum of first n numbers (using for ) ##############
+
+n=int(input("enetr the number:"))
+y=0
+for z in range(1,n+1):
+    y=y+z
+print(y)    

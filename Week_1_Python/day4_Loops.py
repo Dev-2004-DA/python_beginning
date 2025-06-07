@@ -23,8 +23,13 @@
 #     i+=1
 
 
-######## for loop #########3
-y=[1,2,3,"$",5]    
-for xmas in y :
-    print(xmas)
-    print("0k")
+# ######## for loop #########3
+# y=[1,2,3,"$",5]    
+# for xmas in y :
+#     print(xmas)
+#     print("0k")
+# z=(1,2,3,4,5,6,)    
+
+x=range(1,5,2)
+for i in x:
+    print(i)
