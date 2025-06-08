@@ -101,10 +101,14 @@
 ########## WARF to print all elements in a list (use list and index as parameters) ##########
 
 
-def y(lis,idx):
-    if(idx == len(lis)):
-        return 78
-    print(lis[idx])
-    y(lis,idx +1)
-x=[1,2,3,4,5,6]
-y(x,0)
+# def y(lis,idx):
+#     if(idx == len(lis)):
+#         return 78
+#     print(lis[idx])
+#     y(lis,idx +1)
+# x=[1,2,3,4,5,6]
+# y(x,0)
+
+# import math as mt 
+# print(sqrt(25))
+import matplotlib
