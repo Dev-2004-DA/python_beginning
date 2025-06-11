@@ -1,7 +1,0 @@
-file=open("sample.txt")
-# d=file.read()
-# print(d)
-d1=file.readline()
-d2=file.readline()
-print(d1)
-print(d2)
