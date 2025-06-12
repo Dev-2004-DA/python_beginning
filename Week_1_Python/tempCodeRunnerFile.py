@@ -1,3 +1,3 @@
-word="abdihsirjkl"
-x=word[3:(len(word)-3):-1]
-print(x)
+
+# print("mean is is" + mean)
+# print("mean is is" + mean)
