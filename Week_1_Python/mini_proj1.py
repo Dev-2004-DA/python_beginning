@@ -1,20 +1,12 @@
 i=0
 while(i>=0):  ### using while loop for multiple time asking user 
-    try:
-        data=list(map(float,input("Enter your data with space between each data points=").split()))
-        print("Entered data is= ",data)
-    except ValueError as  v:
-        print("Error ",v)    
-        data=list(map(float,input("Enter data again with space between each data points=").split()))
-        print("Entered data is= ",data)
-    except ValueError as  v:
-        print("Error ",v)    
-        data=list(map(float,input("Enter data again with space between each data points=").split()))
-        print("Entered data is= ",data)
-    except ValueError as  v:
-        print("Error ",v)    
-        data=list(map(float,input("Enter data again with space between each data points=").split()))
-        print("Entered data is= ",data)    
+    while True:
+        try:
+            data = list(map(float, input("Enter your data with space between each data point: ").split()))
+            print("Entered data is:", data)
+            break
+        except ValueError as v:
+            print("Invalid input! Please enter only numbers separated by spaces.")
 
      ###### importing module 
       
