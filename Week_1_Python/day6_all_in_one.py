@@ -230,8 +230,12 @@
 # #     print(f"Color {position}: {color}")
 
 # print(" correct ✅ ")
-import statistics as st
-print(dir(st))
-norm=st.NormalDist(0,1)
-sam =f"{norm.samples(5)}"
-print(sam)
+# import statistics as st
+# print(dir(st))
+# norm=st.NormalDist(0,1)
+# sam =f"{norm.samples(5)}"
+# print(sam)
+x=[]
+for i in range(10):
+    x.append(i)
+print(str(x))    
