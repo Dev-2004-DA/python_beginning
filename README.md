@@ -59,7 +59,7 @@ This repository contains my daily learning progress as I go through Python funda
 
 ---
 
-### ✅ Day 7: Mini Project – Descriptive Statistics Tool
+### ✅ Day 7: Mini Project1  – Descriptive Statistics Tool
 
 This project analyzes a list of numbers entered by the user and outputs key descriptive statistics using only built-in modules (`statistics`, `math`).
 
@@ -118,4 +118,81 @@ OUTLIARS:                             [173.0, 182.0]
 Do you want to do it for another data set ?(y/n)
 
 
-#### 🧪 Sample Output
+---
+
+### ✅ Week 1 Mini Project 2: Height Analysis Tool
+
+This project collects heights (in cm) of multiple individuals and returns a detailed statistical summary. It also converts each height into meters and inches, and classifies the person as **Short**, **Average**, or **Tall**.
+
+#### 🧠 Features:
+- Count, Mean, Median, Mode
+- Standard Deviation, Min, Max
+- Unit conversion (cm → m and inches)
+- Height classification:
+  - `< 150 cm` → Short
+  - `150–170 cm` → Average
+  - `> 170 cm` → Tall
+
+#### 📦 Python Concepts Used:
+- `input()`, lists, loops, conditionals, custom functions
+- Built-in modules: `math`, `statistics`
+
+#### 📂 File:
+`Week1_Python/mini_proj2.ipynb`
+
+#### 🧪 Sample Output:
+WELCOME TO THE HEIGHT ANALYSIS TOOL
+The Entered Dataset Is : [123.98, 145.78, 144.89, 164.89, 175.8, 179.0]
+                  ---------HEIGHTS ANALYSIS---------                  
+Numbers Of Individuals:                                  6
+Mean:                                                    155.72
+Median:                                                  155.33
+Mode:                                                     No Mode
+Standard Deviation:                                      21.23
+Minimum Height:                                          123.98
+Maximum Height:                                          179.0
+Short:                                                   3
+Average:                                                 1
+Tall:                                                    2
+___________________________________________________________________
+
+NOTE---'SHORT' is defined as set of individuals with height less than 150 c.m.
+       'AVERAGE' os defined as the set of individuals with height between 150 annd 170 c.m.
+       'TALL' is defined as the set of individuals with height greater than 170 c.m.
+
+
+ --------CONVERSION OF HEIGHTS IN METERS AND INCHES--------
+ht. in c.m.     |  ht. in meters    |    ht. in inches
+  123.98        |      1.24         |        48.72
+  145.78        |      1.46         |        57.29
+  144.89        |      1.45         |        56.94
+  164.89        |      1.65         |        64.80
+  175.80        |      1.76         |        69.09
+...
+With Median Height 155.33 C.M.
+The Standard Deviation Of Heights From The Mean Is 21.23 C.M. .
+From This Data It Has Bbeen Also Found That The Tallest Individual From This Data Has Height 179.0 C.M. 
+And The Shortest Individual Has Height 123.98 C.M. 
+Output is truncated. View as a scrollable element or open in a text editor
+---
+
+📌 Built using only Week 1 concepts + `math` and `statistics` modules.
+✅ What to Do Now:
+Paste this block below your Day 7 project section in README.md
+
+Create the Python file (if not done already):
+Week1_Python/height_analysis_tool.py
+
+Push it to GitHub
+
+Let me know if you want me to generate this entire README.md in PDF or Markdown file format for download.
+
+
+
+
+
+
+
+
+
+
